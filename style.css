@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(76, 76, 76);
+}
+
+.main-container{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #B198FC , #A8DADC);
+  position: relative;
+  text-align: center;
+}
+
+.title{
+  color: White;
+  font-size: 10rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  left: 0;
+}
+
+.glassMorph{
+  background: rgba( 244, 238, 238, 0.20 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+  width: 60%;
+  height: 50%;
+  position: relative;
+  left: 20%;
+  top: 20%;
+}
+
+header {
+  padding-top: 20px;
+}
+
+.judul {
+  font-size: 16pt;
+}
+.subtitle {
+  font-size: 12pt;
+  padding: 10px 0 5px 0;
+}
+input {
+  font-size: 12pt;
+  border-radius: 4px;
+  /* line-height: 1.4; */
+  padding: 5px 10px;
+}
+button {
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+.output{
+  margin-top: 10px;
+  margin-right: 300px;
+}
+.output li {
+  font-size: 14pt;
+  margin-left: 55px;
+}
